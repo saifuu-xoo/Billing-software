@@ -5,7 +5,7 @@ try:
     conn = psycopg2.connect(
         dbname="billing_db",
         user="postgres",
-        password="vmak@1100",
+        password="your password",
         host="localhost",
         port="5432"
     )
